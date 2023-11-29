@@ -1,0 +1,201 @@
+/* Common Styles */
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #0056a6;
+}
+
+p {
+    color: #0056a6;
+}
+
+.mcq-question {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #000;
+    font-size: 24px;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    margin: 2px 2px;
+    position: relative;
+}
+
+.radio-option label {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.radio-option input[type="radio"] {
+    display: none;
+}
+
+.radio-custom {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #0056a6;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.radio-custom::before {
+    content: "✔";
+    font-size: 14px;
+    color: #0056a6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.radio-option input[type="radio"]:checked + .radio-custom::before {
+    opacity: 1;
+}
+
+.form-check-label .form-check-input {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form-check-input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #0056a6;
+    border-radius: 50%;
+}
+
+.form-check-input[type="radio"]:checked {
+    background-color: #0056a6;
+}
+
+button#next-question {
+    background-color: #0056a6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button#next-question:hover {
+    background-color: #003366;
+}
+
+.result-container {
+    text-align: center;
+    margin: 20px auto;
+    color: white !important;
+    font-size: 24px;
+}
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+/* Center "Submit" button */
+#submit-button {
+    background-color: #0056a6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: block; /* Add this line to ensure it's visible on all screens */
+}
+
+
+/* Center result text and style */
+#result {
+    text-align: center;
+    background-color: #0056a6;
+    color: white !important;
+    margin-top: 50px;
+    font-size: 24px;
+    display: block;
+}
+
+/* Style the result heading */
+#result h1 {
+    font-size: 32px;
+    color: white !important;
+    display: block;
+}
+
+#result p {
+    font-size: 18px;
+    color: white !important;
+}
+
+/* CSS for Mobile View */
+@media (max-width: 768px) {
+    .centered-container {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .col-md-12 h1 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .mcq-question {
+        font-size: 16px;
+    }
+
+    .radio-option label {
+        margin-left: 10px;
+    }
+
+    .mcq-question p {
+        margin-bottom: 10px;
+    }
+
+    .mcq-question .form-check {
+        margin-bottom: 10px;
+    }
+
+    #submit-button {
+        margin-top: 20px;
+    }
+
+    #result {
+        margin-top: 20px;
+    }
+}
+/* Navbar text color */
+.navbar .navbar-brand {
+    color: white;
+    font-weight: bold; /* Make it bold */
+}
+
+/* Navbar text on hover */
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+/* Custom CSS for DOST part */
+.navbar .navbar-brand .d-inline-block {
+    color: white;
+    font-weight: bold; /* Make it bold */
+}
+/* Navbar list items color */
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+/* Navbar list items color on hover */
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+}
+

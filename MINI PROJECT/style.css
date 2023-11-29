@@ -1,0 +1,395 @@
+
+navbar {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow with a horizontal offset of 0px, vertical offset of 4px, blur radius of 6px, and color with some transparency */
+}
+.navbar-nav .nav-item a.nav-link:hover {
+    color: #fff; /* Change the text color on hover */
+    background-color: #007bff; /* Change the background color on hover */
+}
+/* Navbar text color */
+.navbar .navbar-brand {
+  color: white;
+  font-weight: bold; /* Make it bold */
+}
+/* Navbar list items color */
+.navbar .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+/* Navbar list items color on hover */
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: white;
+}
+
+/* Navbar text on hover */
+.navbar .navbar-brand:hover {
+  color: white;
+}
+
+/* Custom CSS for DOST part */
+.navbar .navbar-brand .d-inline-block {
+  color: white;
+  font-weight: bold; /* Make it bold */
+}
+
+
+  .custom-style {
+    font-family: Arial, sans-serif; /* Change to your desired font family */
+    font-size: 20px; /* Change to your desired font size */
+    color:#0056a6!important;
+  }
+  .container {
+    text-align: center; /* Center align the content */
+    margin-top: 15px;
+  }
+
+  .section-heading {
+    color: blue; /* Set the text color to blue */
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add some spacing between cards */
+  }
+
+  .card {
+    width: 18rem;
+  }
+  .custom-card .card-img-bottom {
+    max-height: 100px; /* Adjust the max-height as needed */
+  }
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh; /* Adjust the height as needed */
+    text-align: center;
+    background-color:rgb(205, 245, 245) ;
+}
+
+/* Style the heading text */
+h2 {
+    color: #0056a6;
+}
+
+/* Style the paragraph text */
+p {
+    max-width: 600px;
+    
+}
+
+/* Style the image container */
+.image-container {
+    margin-top: 20px;
+}
+
+/* Add your image styling here */
+.image {
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+}
+.form-container {
+  background-color: rgb(205, 245, 245) ;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+/* Style the form header */
+.form-header {
+  background-color: #0056a6;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Style the horizontal line */
+.form-hr {
+  border: 1px solid #ddd;
+}
+
+/* Style the form inputs */
+.form-input {
+  margin: 10px 0;
+}
+
+/* Style the Start Test button */
+.start-test-button {
+  background-color: #0056a6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container{
+  background-color: azure;
+}
+.accordion-body {
+  background-color: rgb(205, 245, 245) ;/* Set your desired background color here */
+  padding: 10px; /* Add padding for better readability */
+}
+.accordion-header {
+  background-color: rgb(205, 245, 245) ; /* Set your desired background color here */
+  color: #fff; /* Set the text color for better contrast */
+}
+.water-border-div {
+  width: 100%;
+  background-color: #0056a6;
+  border: 2px solid #0056a6;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto; /* Center the div horizontally */
+  height: 100vh;
+}
+
+.water-border-div h1, .water-border-div h2, .water-border-div .content {
+  color: white;
+  text-align: center;
+}
+
+.circular-image {
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+  .water-border-div {
+    position: relative;
+    width: 100%; /* Full width of the page */
+    background-color: #0056a6;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height to cover the full viewport height */
+}
+/* Footer Styles */
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer h4 {
+  color:white;
+  font-size: 18px;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer li {
+  margin: 5px 0;
+  font-size: 14px;
+}
+.footer .container {
+  background-color:black;
+}
+/* Center the text within the footer */
+/* Center the text within the footer using flexbox */
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+/* Add a class to center text within the footer */
+.centered-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Roboto, sans-serif;
+}
+
+.slider {
+  position: relative;
+  width: 960px;
+  height: 300px;
+  margin: 50px auto;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.slider-controls {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 200px;
+  text-align: center;
+  transform: translatex(-50%);
+  z-index: 1000;
+
+  list-style: none;
+  text-align: center;
+}
+
+.slider input[type="radio"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider-controls label {
+  display: inline-block;
+  border: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #212121;
+  transition: background-color 0.2s linear;
+}
+
+#btn-1:checked ~ .slider-controls label[for="btn-1"] {
+  background-color: #ff4081;
+}
+
+#btn-2:checked ~ .slider-controls label[for="btn-2"] {
+  background-color: #ff4081;
+}
+
+#btn-3:checked ~ .slider-controls label[for="btn-3"] {
+  background-color: #ff4081;
+}
+
+/* SLIDES */
+
+.slides {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+
+  opacity: 0;
+  transform: translatex(-100%);
+  transition: transform 250ms linear;
+}
+
+.slide-content {
+  width: 400px;
+}
+
+.slide-title {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.slide-text {
+  margin-bottom: 20px;
+}
+
+.slide-link {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  background-color: #ff4081;
+}
+
+.slide-image img {
+  max-width: 100%;
+}
+
+/* Slide animations */
+#btn-1:checked ~ .slides .slide:nth-child(1) {
+  transform: translatex(0);
+  opacity: 1;
+}
+
+#btn-2:checked ~ .slides .slide:nth-child(2) {
+  transform: translatex(0);
+  opacity: 1;
+}
+
+#btn-3:checked ~ .slides .slide:nth-child(3) {
+  transform: translatex(0);
+  opacity: 1;
+}
+
+#btn-1:not(:checked) ~ .slides .slide:nth-child(1) {
+  animation-name: swap-out;
+  animation-duration: 300ms;
+  animation-timing-function: linear;
+}
+
+#btn-2:not(:checked) ~ .slides .slide:nth-child(2) {
+  animation-name: swap-out;
+  animation-duration: 300ms;
+  animation-timing-function: linear;
+}
+
+#btn-3:not(:checked) ~ .slides .slide:nth-child(3) {
+  animation-name: swap-out;
+  animation-duration: 300ms;
+  animation-timing-function: linear;
+}
+
+@keyframes swap-out {
+  0% {
+    transform: translatex(0);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translatex(50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translatex(100%);
+  }
+}

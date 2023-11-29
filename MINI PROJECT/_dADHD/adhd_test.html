@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DOST</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="5e2ESR8Ycmos6g3gAKr1Jvwye8sW4U1u/cAKulfVJnkakCcMqhOudbtPnvJ+nbv7" crossorigin="anonymous">
+
+    <link rel="icon" type="image/png" href="hug.png">
+    <style>
+        .mcq-question {
+            display: none;
+        }
+
+        .mcq-question.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="hug.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                DOST
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active p-2" aria-current="page" href="#">Assessment</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active p-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Therapy
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Option 1</a></li>
+                            <li><a class="dropdown-item" href="#">Option 2</a></li>
+                            <li><a class="dropdown-item" href="#">Option 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active p-2" aria-current="page" href="#">self test</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active p-2" aria-current="page" href="#">programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active p-2" aria-current="page" href="#">about us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="color: #0056a6;">START DEPRESSION TEST</h1>
+                <p style="color: #0056a6;">
+                    This is the first step to treating ADHD. Please fill out our short anonymous questionnaire to help you better understand your ADHD.
+                </p>
+            </div>
+        </div>
+        <div class="mcq-container">
+        <!-- MCQ Questions -->
+        <div class="centered-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Question 1 -->
+                    <div class="mcq-question active">
+                        <p>Question 1: Do you often have trouble paying close attention to details or making careless mistakes in school or at work?</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question1" value="Several Days" id="question1-option1">
+                            <label class="form-check-label" for="question1-option1">Several Days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question1" value="More Than Half the days" id="question1-option2">
+                            <label class="form-check-label" for="question1-option2">More Than Half the days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question1" value="Nearly Everyday" id="question1-option3">
+                            <label class="form-check-label" for="question1-option3">Nearly Everyday</label>
+                        </div>
+                    </div>
+
+                    <!-- Question 2 -->
+                    <div class="mcq-question">
+                        <p>Question 2: Are you frequently forgetful in daily activities?</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question2" value="Several Days" id="question2-option1">
+                            <label class="form-check-label" for="question2-option1">Several Days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question2" value="More Than Half the days" id="question2-option2">
+                            <label class="form-check-label" for="question2-option2">More Than Half the days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question2" value="Nearly Everyday" id="question2-option3">
+                            <label class="form-check-label" for="question2-option3">Nearly Everyday</label>
+                        </div>
+                    </div>
+
+                    <!-- Question 3 -->
+                    <div class="mcq-question">
+                        <p>Question 3: Do you find it difficult to stay organized?</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question3" value="Several Days" id="question3-option1">
+                            <label class="form-check-label" for="question3-option1">Several Days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question3" value="More Than Half the days" id="question3-option2">
+                            <label class="form-check-label" for="question3-option2">More Than Half the days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question3" value="Nearly Everyday" id="question3-option3">
+                            <label class="form-check-label" for="question3-option3">Nearly Everyday</label>
+                        </div>
+                    </div>
+
+                    <!-- Question 4 -->
+                    <div class="mcq-question">
+                        <p>Question 4: Is it challenging to sustain attention during tasks or activities that are not intrinsically interesting to you?</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question4" value="Several Days" id="question4-option1">
+                            <label class="form-check-label" for="question4-option1">Several Days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question4" value="More Than Half the days" id="question4-option2">
+                            <label class="form-check-label" for="question4-option2">More Than Half the days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question4" value="Nearly Everyday" id="question4-option3">
+                            <label class="form-check-label" for="question4-option3">Nearly Everyday</label>
+                        </div>
+                    </div>
+
+                    <!-- Question 5 -->
+                    <div class="mcq-question">
+                        <p>Question 5: Do you tend to interrupt or intrude on others' conversations or games?</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question5" value="Several Days" id="question5-option1">
+                            <label class="form-check-label" for="question5-option1">Several Days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question5" value="More Than Half the days" id="question5-option2">
+                            <label class="form-check-label" for="question5-option2">More Than Half the days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question5" value="Nearly Everyday" id="question5-option3">
+                            <label class="form-check-label" for="question5-option3">Nearly Everyday</label>
+                        </div>
+                    </div>
+
+                    <!-- Question 6 -->
+                    <div class="mcq-question">
+                        <p>Question 6: Do you talk excessively or have difficulty waiting your turn in conversations or in line?</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question6" value="Several Days" id="question6-option1">
+                            <label class="form-check-label" for="question6-option1">Several Days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question6" value="More Than Half the days" id="question6-option2">
+                            <label class="form-check-label" for="question6-option2">More Than Half the days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question6" value="Nearly Everyday" id="question6-option3">
+                            <label class="form-check-label" for="question6-option3">Nearly Everyday</label>
+                        </div>
+                    </div>
+
+                    <!-- Question 7 -->
+                    <div class="mcq-question">
+                        <p>Question 7: Do you often fidget with your hands or feet or squirm in your seat?</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question7" value="Several Days" id="question7-option1">
+                            <label class="form-check-label" for="question7-option1">Several Days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question7" value="More Than Half the days" id="question7-option2">
+                            <label class="form-check-label" for="question7-option2">More Than Half the days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question7" value="Nearly Everyday" id="question7-option3">
+                            <label class="form-check-label" for="question7-option3">Nearly Everyday</label>
+                        </div>
+                    </div>
+
+                    <!-- Question 8 -->
+                    <div class="mcq-question">
+                        <p>Question 8: Do you frequently lose things necessary for tasks and activities?</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question8" value="Several Days" id="question8-option1">
+                            <label class="form-check-label" for="question8-option1">Several Days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question8" value="More Than Half the days" id="question8-option2">
+                            <label class="form-check-label" for="question8-option2">More Than Half the days</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="question8" value="Nearly Everyday" id="question8-option3">
+                            <label class="form-check-label" for="question8-option3">Nearly Everyday</label>
+                        </div>
+                    </div>
+
+
+                    <!-- Button to go to the next question -->
+                   <!-- Button to go to the next question -->
+                   <button id="next-question" onclick="showNextQuestion()" style="background-color: #0056a6; color: white;">Next</button>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <button id="submit-button" style="background-color: #0056a6; color: white; width: 100%; padding: 10px 0; text-align: center; display: none;" onclick="calculateResult()">Submit</button>
+
+        <!-- Result Display -->
+        <div class="result-container">
+            <div id="result" style="display: none; background-color: #0056a6; color: white; text-align: center; width: 100%; padding: 10px 0;">
+                <h1 style="font-size: 32px;">Result</h1>
+                <p>Your result text here.</p>
+            </div>
+            
+        </div>
+        
+        <!-- Submit Button -->
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+    <script>
+        var currentQuestion = 0;
+        var questions = document.querySelectorAll('.mcq-question');
+        var answers = [];
+    
+        function showNextQuestion() {
+            if (currentQuestion < questions.length - 1) {
+                questions[currentQuestion].style.display = 'none';
+                currentQuestion++;
+                questions[currentQuestion].style.display = 'block';
+            } else {
+                document.getElementById('next-question').style.display = 'none';
+                document.getElementById('submit-button').style.display = 'block';
+            }
+        }
+    
+        var radioButtons = document.querySelectorAll('input[type="radio"]');
+        radioButtons.forEach(function (radio) {
+            radio.addEventListener('change', function () {
+                answers[currentQuestion] = this.value;
+            });
+        });
+    
+        function calculateResult() {
+            var counts = {
+                'Several Days': 0,
+                'More Than Half the days': 0,
+                'Nearly Everyday': 0
+            };
+    
+            for (var i = 0; i < answers.length; i++) {
+                if (answers[i]) {
+                    counts[answers[i]]++;
+                }
+            }
+    
+            var result;
+            if (counts['Nearly Everyday'] > counts['More Than Half the days'] && counts['Nearly Everyday'] > counts['Several Days']) {
+                result = "You have severe ADHD";
+            } else if (counts['More Than Half the days'] > counts['Several Days']) {
+                result = "The ADHD is moderate";
+            } else {
+                result = "No worries";
+            }
+    
+            var resultElement = document.getElementById('result');
+            resultElement.innerHTML = `<h1 style="color: #0056a6; text-align: center; font-size: 24px;">Result</h1><p style="color: #0056a6; text-align: center; font-size: 18px;">${result}</p>`;
+            resultElement.style.display = 'block';
+        }
+    </script>
+    
+</body>
+</html>
